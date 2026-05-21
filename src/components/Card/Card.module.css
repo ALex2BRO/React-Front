@@ -6,9 +6,10 @@
 .Card {
     display: flex;
     width: auto;
-    height: 260px;
-    max-width: 464px;
-    min-height: 260px;
+    height: auto;
+    width: 464px;
+    min-width: 464px;
+    max-height: 260px;
     border-radius: 16px;
     padding: 32px;
     gap: 11px;
