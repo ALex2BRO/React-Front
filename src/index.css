@@ -1,0 +1,266 @@
+:root {
+    --text-color-blue-darker: #002033;
+    --body-bg-color: #ECF1F4;
+    --blue: #0078D2;
+    --dark-blue: #00426912;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--body-bg-color);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 18px 24px;
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.header_wrapper {
+    display: flex;
+    gap: 36px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 32px;
+}
+
+.portal {
+    font-weight: 700;
+    font-style: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: var(--text-color-blue-darker);
+}
+
+.learn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: var(--text-color-blue-darker);
+}
+
+.tasks {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: var(--text-color-blue-darker);
+    opacity: 60%;
+}
+
+.navigation_wrapper {
+    display: flex;
+    gap: 16px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.user-info img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.user-info img:hover{
+    opacity: 90%;
+    transition: 0.1s;
+}
+
+.user-name {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: var(--text-color-blue-darker);
+}
+
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.button-wrapper button {
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    border: none;
+    width: 32px;
+    height: 32px;
+}
+
+.button-wrapper button:hover{
+    opacity: 90%;
+    transition: 0.1s;
+}
+
+.container {
+    padding: 48px 240px;
+}
+
+.recomendates {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.recomend {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: var(--text-color-blue-darker);
+}
+
+.main_card {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    padding: 32px 0px 32px 32px;
+    gap: 0px;
+    flex-direction: column;
+    background-color: #fff;
+    filter: drop-shadow(0px 2px 8px 0px #002033);
+}
+
+.main_card-title {
+    margin: 0px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: var(--text-color-blue-darker);
+}
+
+.main_card-description {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: var(--text-color-blue-darker);
+    opacity: 60%;
+}
+
+.main_card-advice {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: var(--text-color-blue-darker);
+}
+
+.main_card-button {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-width: 1px;
+    background: var(--blue);
+    height: 40px;
+    width: 178px;
+    border-radius: 4px;
+    border: none;
+}
+
+.main_card-label {
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+
+.card__frontend {
+    padding: 32px 0px 32px 32px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+    border-radius: 8px;
+    background-color: rgba(0, 32, 51, 0.06);
+}
+
+.card__frontend-p{
+    color: var(--text-color-blue-darker);
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin: 0px;
+}
+
+.card__frontend-wrapper {
+    align-items: end;
+    display: flex;
+    gap: 24px;
+    overflow-x: auto;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 32px;
+}
+
+.close-button {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 66, 105, 0.07);
+    border: none;
+    border-radius: 4px;
+    width: 164px;
+    height: 32px;
+    align-items: center;
+    color: rgba(0, 57, 92, 0.8);
+}
+
+.card-wrapper-f {
+    display: flex;
+    gap: 32px;
+}
+
+.card-wrapper-t {
+    display: flex;
+    gap: 8px;
+}
+
+.card-wrapper-t button{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(0, 66, 105, 0.07);
+}
+
